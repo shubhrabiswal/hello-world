@@ -7,4 +7,25 @@
 // So to evaluate an expression involving symmetric differences among three elements (A △ B △ C), you must complete one operation at a time. 
 // Thus, for sets A and B above, and C = {2, 3}, A △ B △ C = (A △ B) △ C = {1, 4} △ {2, 3} = {1, 2, 3, 4}.
 
+###solution
+
+function sym(args1,args2) {
+  // console.log(args2)
+  var args = []
+  
+  for(let i=0;i<args1.length;i++){
+    if(args2.includes(args1[i]) == false) {
+        args.push(args1[i])
+      }
+  }
+  for(let j=0;j<args2.length;j++){
+      if(args1.includes(args2[j]) == false){
+        args.push(args2[j])
+      }
+    }
+  console.log(args)
+  return args;
+}
+sym([1, 2, 3], [5, 2, 1, 4]);
+
 

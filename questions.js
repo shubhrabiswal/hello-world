@@ -399,7 +399,7 @@ function countString(str, letter) {
 const string = prompt('Enter a string: ');
 const letterToCheck = prompt('Enter a letter to check: ');
 
-//passing parameters and calling the function
+
 const result = countString(string, letterToCheck);
 
 // displaying the result

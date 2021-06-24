@@ -57,7 +57,6 @@ console.log(check_prime(5))
 ### // program to find the ASCII value of a character
 ##############################################
 
-// take input from the user
 const string = prompt('Enter a character: ');
 
 // convert into ASCII value

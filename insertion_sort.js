@@ -1,3 +1,5 @@
+### Insertion osrt in js 
+//////////////////////////////////////
 function insertionSort(inputArr) {
     let n = inputArr.length;
         for (let i = 1; i < n; i++) {

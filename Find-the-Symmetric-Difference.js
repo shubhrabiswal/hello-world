@@ -26,6 +26,6 @@ function sym(args1,args2) {
   console.log(args)
   return args;
 }
-sym([1, 2, 3], [5, 2, 1, 4]);
+sym([1, 2, 3], [5, 2, 1, 4]);//find the symmetric differences between the two sets
 
 

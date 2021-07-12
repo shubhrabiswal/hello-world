@@ -6,6 +6,7 @@ function rotLeft(a, d) {
         let ar1=a.splice(1)
         ar1.push(a[0])
         a=ar1
+//         a=a.concat(a.splice(0,1))     ///only this line will also work
     }
     return a
 }

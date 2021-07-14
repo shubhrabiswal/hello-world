@@ -1,3 +1,7 @@
+// Given a non-negative integer N. Check whether the Binary Representation of the number is Palindrome or not. 
+// Note: No leading 0’s are being considered.
+
+
 class Solution{
     binaryPalin(n){
         //code here

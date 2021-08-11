@@ -1,4 +1,4 @@
-//
+//Conway's Game of Life
 
 function Game_of_Life(live_cell, steps) {
     //Selecting a grid of 5*5

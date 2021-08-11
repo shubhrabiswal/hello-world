@@ -1,4 +1,4 @@
-### Selection sort
+// ### Selection sort
 ////////////////////////////////////////////////////////////////////////
 function selectionSort(inputArr) { 
     let n = inputArr.length;

@@ -1,4 +1,4 @@
-##### Reverse the word in a sentence
+// ##### Reverse the word in a sentence
 
 function word_rev(str1){
   let word=''

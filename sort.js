@@ -1,4 +1,4 @@
-### SELECTION sort
+// ### SELECTION sort
 
 function selectionSort(array) {
   // Only change code below this line
@@ -20,7 +20,7 @@ function selectionSort(array) {
 selectionSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]);
 
 
-### Bubble Sort 
+// ### Bubble Sort 
 
 function bubbleSort(array) {
   // Only change code below this line
@@ -43,7 +43,7 @@ function bubbleSort(array) {
 bubbleSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]);
 
 
-### INSERTION SORT
+// ### INSERTION SORT
 
 function insertionSort(array) {
   for (let i = 1; i < array.length; i++) {

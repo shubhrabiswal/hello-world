@@ -1,6 +1,6 @@
-#################################################################
-Write a push method that pushes an element to the top of the stack, a pop method that removes and returns the element on the top of the stack, a peek method that looks at the top element in the stack, an isEmpty method that checks if the stack is empty, and a clear method that removes all elements from the stack. Normally stacks don't have this, but we've added a print helper method that console logs the collection.
-#################################################################
+// #################################################################
+// Write a push method that pushes an element to the top of the stack, a pop method that removes and returns the element on the top of the stack, a peek method that looks at the top element in the stack, an isEmpty method that checks if the stack is empty, and a clear method that removes all elements from the stack. Normally stacks don't have this, but we've added a print helper method that console logs the collection.
+// #################################################################
 function Stack() {
   console.log(arguments)
   var collection = arguments[0]
@@ -44,9 +44,9 @@ st1.clear()
 st1.print()
 
 
-##########################
-QUEUE functions
-#######################
+// ##########################
+// QUEUE functions
+// #######################
 function Queue() {
   var collection = [];
   this.print = function() {
@@ -75,9 +75,9 @@ function Queue() {
 }
 
 
-#############
-### PriorityQueue Functions
-#################################
+// #############
+// ### PriorityQueue Functions
+// #################################
 function PriorityQueue () {
   this.collection=[];
   // this.collection = arguments[0]

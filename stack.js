@@ -116,6 +116,5 @@ function PriorityQueue () {
 }
 
 // let pq1 = new PriorityQueue([['kitten', 2], ['dog', 2], ['rabbit', 2]])
-// pq1.printCollection()
 // pq1.enqueue(['human', 1])
 pq1.printCollection()

@@ -3,15 +3,15 @@
 //
 
 function RGB_sort(arr){
-    let temp;
+    let temp
     for(let i=0;i<arr.length;i++){
-        for(let j=i+1;j<arr.length;j++){
-            if(arr[i].charCodeAt() < arr[j].charCodeAt()){
-                temp = arr[i]
-                arr[i] = arr[j]
-                arr[j] = temp
-            }
+        temp = arr[i]
+        let j = i-1;
+        while((j>-1) && temp.charCodeAt()>arr[j].charCodeAt()){
+            arr[j+1] = arr[j]
+            j--
         }
+        arr[j+1] = temp
     }
     return arr
 }

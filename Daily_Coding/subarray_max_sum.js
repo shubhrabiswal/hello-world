@@ -8,12 +8,26 @@
 
 
 function subarray_sum_max(arr){
+    // let temp = arr[i]
+    let temp=0
+    let max_limit = -(Number.MIN_VALUE) // Number.MIN_VALUE gives the smallest positive numeric value representable in JavaScript.
     for(let i=0;i<arr.length;i++){
-        let temp = arr[i]
-        for(let j=i+1;j<arr.length;j++){
-            
+        temp = temp+arr[i]
+        if(max_limit<temp){
+            max_limit = temp
         }
+        if(temp<0){
+            temp = 0
+        }
+        
     }
+    if(max_limit>0){
+        return max_limit
+    }else{
+        return 0
+    }
+    
 }
 
-console.log(subarray_sum_max([34,-50,42,14,-5,86]))
+console.log(subarray_sum_max([34,-50,42,14,-5,86]));
+console.log(subarray_sum_max([-5,-1,-8,-9]));

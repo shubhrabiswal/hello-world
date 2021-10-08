@@ -1,8 +1,8 @@
-##############################################
-### Inventory Update ###      ////////////////need to check the code---------TypeError: Cannot read property '1' of undefined
-Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). 
-If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
-##############################################
+//##############################################
+//### Inventory Update ###      ////////////////need to check the code---------TypeError: Cannot read property '1' of undefined
+//Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). 
+//If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
+//##############################################
 function updateInventory(arr1, arr2) {
     for(let i=0;i<arr1.length;i++){
         for(let j=0;j<arr2.length;j++){
